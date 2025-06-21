@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creaty Lab – Design Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #5c67f2;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin-right: 20px;
+      color: #444;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 60px 40px;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #222;
+    }
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .btn {
+      margin-top: 20px;
+      background: #5c67f2;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #4b54cc;
+    }
+    .services, .portfolio, .contact {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services h3, .portfolio h3, .contact h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .service-list, .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .service-item, .portfolio-item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f1f3f6;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creaty Lab</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>🎯 From Concept to Canvas — 🎨 Creaty Style ✨</h2>
+    <p>Posters • Websites • Custom Work — Clean, Fast & Aesthetic</p>
+    <a href="#contact" class="btn">DM @designs.creaty to Get Started</a>
+  </section>
+
+  <section class="services" id="services">
+    <h3>Our Services 💼</h3>
+    <div class="service-list">
+      <div class="service-item">
+        <h4>🎨 Poster Design</h4>
+        <p>Starting at ₹99 – Custom posters for events, reels, brands & more.</p>
+      </div>
+      <div class="service-item">
+        <h4>💻 Website UI Design</h4>
+        <p>Landing pages, portfolios, and one-pagers — modern and responsive.</p>
+      </div>
+      <div class="service-item">
+        <h4>🎬 Video Edits & Reels</h4>
+        <p>Stylish, short-form content for social media — quick & clean edits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h3>Portfolio 🖼️</h3>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <h4>Poster Sample 1</h4>
+        <p>Modern birthday invite for GenZ brand.</p>
+      </div>
+      <div class="portfolio-item">
+        <h4>Website UI Concept</h4>
+        <p>Landing page for a local business with pastel theme.</p>
+      </div>
+      <div class="portfolio-item">
+        <h4>Reel Edit</h4>
+        <p>High energy promo video with fast cuts & effects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Let’s Talk 💬</h3>
+    <p>📱 Instagram: <a href="https://instagram.com/designs.creaty" target="_blank">@designs.creaty</a></p>
+    <p>💬 WhatsApp: <a href="https://wa.me/917624069369" target="_blank">Chat on WhatsApp</a></p>
+    <p>📧 Email: <a href="mailto:creatylab.designs@gmail.com">creatylab.designs@gmail.com</a></p>
+    <p>Or use our quick form to send your request:</p>
+    <a href="https://forms.gle/CbmkWyYWbgc6TNm57" class="btn">I Want a Design 🎨</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Creaty Lab. All rights reserved.
+  </footer>
+</body>
+</html>
